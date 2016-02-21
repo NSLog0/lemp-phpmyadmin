@@ -20,6 +20,15 @@ mysql:
   environment:
     MYSQL_ROOT_PASSWORD: password
 
+phpmyadmin:
+  image: corbinu/docker-phpmyadmin
+  links:
+    - mysql:mysql
+  ports:
+    - "8443:80"
+  environment:
+    MYSQL_USERNAME: root
+    MYSQL_ROOT_PASSWORD: password
 #mongo:
 #  image: mongo
 #  ports:
