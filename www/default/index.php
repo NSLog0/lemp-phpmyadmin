@@ -1,5 +1,5 @@
 <?php
-$servername = "localhost";
+$servername = "mysql"; //can't use localhost. Must use mysql is a mysql name docker-compose.yml
 $username = "root";
 $password = "password";
 
