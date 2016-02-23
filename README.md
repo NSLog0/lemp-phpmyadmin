@@ -40,12 +40,6 @@ use "mysql" instead "localhost", The name in docker-compose.yml
   # try_files $uri $uri/ \1/index.php?$args;
   #}
 
-location = /robots.txt {
-	allow all;
-	log_not_found off;
-	access_log off;
-}
-
 # Deny access to any files with a .php extension in the uploads directory
 # Works in sub-directory installs and also in multisite network
 # Keep logging the requests to parse later (or to pass to firewall utilities such as fail2ban)
