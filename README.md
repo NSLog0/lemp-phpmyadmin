@@ -21,7 +21,7 @@ or
 ```
 $docker-compose start [phpmyadmin_name_of_container]
 ```
-**If error while install tyr to use "sudo" 
+**If error while install try to use "sudo" 
 
 #What's inside
 ##Database config 
