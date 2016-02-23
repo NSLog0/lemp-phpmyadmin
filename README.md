@@ -24,6 +24,7 @@ $docker-compose start [phpmyadmin_name_of_container]
 **If error while install try to use "sudo" 
 
 #What's inside
+Nginx, MySQL, PHP-FPM, HHVM and included phpmyadmin
 ##Database config 
 use "mysql" instead "localhost", The name in docker-compose.yml
 ##support wordpress
